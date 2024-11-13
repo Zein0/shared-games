@@ -13,7 +13,7 @@ function GamesList() {
   const [currentPage, setCurrentPage] = useState(1);
   const [pageInput, setPageInput] = useState('');
   const itemsPerPage = 50;
-  const apiBaseUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+  const apiBaseUrl = process.env.VITE_APP_API_URL || 'http://localhost:5000';
 
   useEffect(() => {
     const fetchGames = async () => {
