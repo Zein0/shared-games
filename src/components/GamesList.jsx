@@ -94,7 +94,7 @@ function GamesList() {
   };
   return(
     (<div
-      className="min-h-screen bg-gradient-to-r from-green-600 via-teal-600 to-blue-600 p-4 relative">
+      className="min-h-screen bg-gradient-to-r from-green-600 via-teal-600 to-blue-600 p-2 sm:p-4 relative">
       <Button
         onClick={toggleShowImage}
         className="fixed left-4 top-4 z-50 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white shadow-lg">
@@ -109,7 +109,7 @@ function GamesList() {
         </h1>
         
         <div
-          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-6 mt-8">
+          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-6 mt-8">
           {currentGames
           .map((game,index) => (
             <Card
