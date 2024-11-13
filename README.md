@@ -110,7 +110,7 @@ Ensure that the following environment variables are set in your `.env` file for 
 
 ## Deployment
 
-The application is deployed on **Netlify** and can be accessed via the following link: [Games Library on Netlify](https://zein0.netlify.app)
+The application is deployed on **Netlify** and can be accessed via the following link: [Games Library on Netlify](https://cross-platform-games.netlify.app)
 
 To deploy this component as part of your web application, follow the standard React deployment steps:
 
