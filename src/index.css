@@ -1,0 +1,84 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... */
+
+
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.game-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  cursor:default;
+}
+
+.game-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.game-title {
+  margin: 8px 0;
+}
+
+.game-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.game-tag {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  margin: 0 10px;
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.pagination-controls span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+.go-to-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.go-to-page input {
+  width: 60px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.go-to-page button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
